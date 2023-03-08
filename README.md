@@ -50,8 +50,8 @@ The program is fairly basic, I just encountered two limited difficulties :
 
 ### Built With
 
-- [![JavaScript][javascript]][next-url]
-- [![NodeJS][nodejs]][next-url]
+![JavaScript][javascript][js-url]
+![NodeJS][nodejs][js-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
