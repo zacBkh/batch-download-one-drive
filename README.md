@@ -44,7 +44,7 @@ The program is fairly basic, I just encountered two limited difficulties :
 
 - []() As it was my first touchpoint with web scraping, I didn't know some sort of "security wait()" were needed. I had forgotten code is executed so quickly that the browser does not have time to render the UI. It causes a problem since some elements the `.click()` method are applying on are rendered onClick, sometimes even with a CSS animation which delays even more the rendering. Hence, I just added a waitFor function that returns a promise. My function accepts a single argument, the delay after which the promise should be resolved. I then used the async/await syntax to await for the promise and delay my code execution.
 
-- []() Initially I had converted the node list from querySelectorAll to an array and had mapped over it. However, I had forgotten arrays ignore any asynchronous code. My code was still executing extremely fast and was crashing since my querySelectors could not target some elements that were taking time to render on the UI (about miliseconds.)
+- []() Initially I had converted the node list from `querySelectorAll()` to an array and had mapped over it. However, I had forgotten arrays ignore any asynchronous code. My code was still executing extremely fast and was crashing since my querySelectors could not target some elements that were taking time to render on the UI (about miliseconds.)
   I switched to a `for...of` loop that I encapsulated in an async function to allow asynchronous execution.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -94,7 +94,7 @@ Zacharie - [LinkedIn](https://ae.linkedin.com/in/zachariedupain) - zachariedupai
 [issues-url]: https://github.com/github_username/repo_name/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=2778C9
 [linkedin-url]: https://ae.linkedin.com/in/zachariedupain
 [product-screenshot]: images/screenshot.png
 [javascript]: https://img.shields.io/badge/JavaScript-E8D44D?style=for-the-badge&logo=javascript&logoColor=black
