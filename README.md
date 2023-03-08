@@ -21,10 +21,9 @@ I need to download from a platform around 70 files each month. I have found it v
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
 
-<h3 align="center">One Drive Batch Doawnloader</h3>
+<h3 align="center">One Drive Batch Downloader</h3>
 
   <p align="center">
     This little script helps me resolving a daily problem I have in my work at Hermès.
@@ -35,8 +34,6 @@ I need to download from a platform around 70 files each month. I have found it v
 <!-- ABOUT THE PROJECT -->
 
 ## Why this project exist?
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 I need to download from a platform around 70 files each month. I have found it very time consumming to do, hence I created this little program. It downloads by itself all the files instead of having me clicking on each of them. Very simple, it works with a combination of querySelectors and .click() methods, encapsulated in a for of loop.
 
@@ -51,10 +48,7 @@ The program is fairly basic, I just encountered two limited difficulties :
 ### Built With
 
 [![JavaScript][javascript]][js-url]
-[![NodeJS][nodejs]][js-url]
-
-- [![NodeJS][nodejs]][node-url]
-- [![Next][next.js]][next-url]
+[![NodeJS][nodejs]][node-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,7 +71,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Contact
 
-Zacharie Dupain - [LinkedIn](https://ae.linkedin.com/in/zachariedupain) - zachariedupain@hotmail.fr
+Zacharie - [LinkedIn](https://ae.linkedin.com/in/zachariedupain) - zachariedupain@hotmail.fr
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
