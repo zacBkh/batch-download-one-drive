@@ -50,8 +50,11 @@ The program is fairly basic, I just encountered two limited difficulties :
 
 ### Built With
 
-![JavaScript][javascript][js-url]
-![NodeJS][nodejs][js-url]
+[![JavaScript][javascript]][js-url]
+[![NodeJS][nodejs]][js-url]
+
+- [![NodeJS][nodejs]][node-url]
+- [![Next][next.js]][next-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +100,8 @@ Zacharie Dupain - [LinkedIn](https://ae.linkedin.com/in/zachariedupain) - zachar
 [linkedin-url]: https://ae.linkedin.com/in/zachariedupain
 [product-screenshot]: images/screenshot.png
 [javascript]: https://img.shields.io/badge/JavaScript-E8D44D?style=for-the-badge&logo=javascript&logoColor=black
-[js-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[js-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/
+[node-url]: https://nodejs.org/en/
 [nodejs]: https://img.shields.io/badge/NodeJS-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [react-url]: https://reactjs.org/
@@ -113,3 +117,5 @@ Zacharie Dupain - [LinkedIn](https://ae.linkedin.com/in/zachariedupain) - zachar
 [bootstrap-url]: https://getbootstrap.com
 [jquery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [jquery-url]: https://jquery.com
+[next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[next-url]: https://nextjs.org/
