@@ -3,13 +3,12 @@ const allLines = document.querySelectorAll('.ms-lstItmLinkAnchor.ms-ellipsis-a')
 const allLinesArr = [...allLines]
 
 const waitFor = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
-const awaitTime = 200
+const awaitTime = 400
 
 const trialAsync = async () => {
   let iterator = 0
   for (const line of allLinesArr) {
     await waitFor(awaitTime)
-
     line.click()
     await waitFor(awaitTime)
 
