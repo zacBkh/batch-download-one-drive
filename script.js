@@ -1,6 +1,6 @@
 // Select three dots on index page
-const allLines = document.querySelectorAll('.ms-lstItmLinkAnchor.ms-ellipsis-a')
-const allLinesArr = [...allLines]
+const allThreeDots = document.querySelectorAll('div.ms-list-itemLink')
+const allLinesArr = [...allThreeDots]
 
 const waitFor = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
 const awaitTime = 400
@@ -9,7 +9,7 @@ const trialAsync = async () => {
   let iterator = 0
   for (const line of allLinesArr) {
     await waitFor(awaitTime)
-    line.click()
+    line.click() // click on the 1st three dots action
     await waitFor(awaitTime)
 
     // Select 3 dots after 'follow'
