@@ -3,7 +3,7 @@ const allThreeDots = document.querySelectorAll('div.ms-list-itemLink')
 const allLinesArr = [...allThreeDots]
 
 const waitFor = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
-const awaitTime = 400
+const awaitTime = 500
 
 const trialAsync = async () => {
   let iterator = 0
